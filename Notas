@@ -1,0 +1,40 @@
+##Tecnologias necesarias
+
+  Placa esp8266      | Chip para conectarse a internet y procesar datos
+  Aplicación web     | Para abrir remotamente la puerta
+  Modulo temperatura | Para saber la temperatura
+  Modulo humedad     | Para saber la humedad
+  Notificaciones     | Por correo o por aplicacion web
+  Bombillo           | Con encendido manual, o automatico por hora o por señal de modulos temperatura o humedad
+  Rele               | Para controlar el encendido del bombillo
+
+
+##Funciones
+  Notificaciones Push:
+    https://www.youtube.com/watch?v=K_bc9uHlOUE
+
+  Ssid y Password no volatiles:
+    https://www.youtube.com/watch?v=GilBJy5RDlo
+    
+  ESP32 y ESP8266 enviando datos por POST y GET.
+    https://www.youtube.com/watch?v=uLkpILpQKuY
+
+  NodeMCU ESP8266 - Control de Foco Relay WebSocket WebServer 
+    https://www.youtube.com/watch?v=ehf6H1ZO8BI
+
+  Arduino desde cero en Español - Capítulo 30 - Paso a Paso (unipolar) 28BYJ-48 con driver ULN2003 215 
+    https://www.youtube.com/watch?v=2-nVV9S7leM
+
+##Productos:
+
+  Placa wifi: ($ 20.000) [esp8266 NodeMCU lolin V3]
+    https://articulo.mercadolibre.com.co/MCO-451171721-modulo-wifi-nodemcu-v3-esp8266-esp12f-arduino-_JM#position=4&search_layout=stack&type=item&tracking_id=10926858-080b-4237-a193-01315e048524
+
+  Modulo temperatura: ($ 7.300) [LM35]
+    https://articulo.mercadolibre.com.co/MCO-600988791-modulo-sensor-termico-ajustable-tempereatura-termistor-ntc-_JM#position=21&search_layout=stack&type=item&tracking_id=713223a0-40f7-41bc-81da-4f299e7ede2e
+
+  Modulo humedad: ($ 11.000) [Dth11 ó Ky-015]
+    https://articulo.mercadolibre.com.co/MCO-658374038-modulo-sensor-de-humedad-y-temperatura-dth11-_JM#position=44&search_layout=stack&type=item&tracking_id=713223a0-40f7-41bc-81da-4f299e7ede2e
+
+  Modulo Rele: ($ 7.500) 5v
+    https://articulo.mercadolibre.com.co/MCO-466255947-modulo-rele-1-canal-ky-019-arduino-5v-15a-125vac-relay-_JM#position=18&search_layout=stack&type=item&tracking_id=d46df445-c40a-456a-afcf-4457a77b1893

@@ -1,0 +1,39 @@
+Esp8266 Nodemcu Lolin v3
+
+Configurar arduino para esp8266
+  https://www.youtube.com/watch?v=Jtu8856aqdo&list=PL-YBH3o7ExSGLcoIh_xiAEeX8rsr1SVs5&index=2
+
+## Configurar arduino
+Agregar en preferencias para darle soporte al esp8266
+  En Gestor de URLs Adicionales de Tarjetas:
+  https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Herramientas > Placa > Gestor de targetas...
+  Escribir lo siguiente > esp8266
+
+Seleccionar la placa: 
+  NodeMCU 1.0 (ESP12-E Module)
+
+## Temas 
+
+#Error monitor serie:
+  https://github.com/esp8266/Arduino/issues/4005 
+
+Solucion:
+  Serial.begin(921600);
+  Serial monitor 1000000
+
+#Error carga pasar codigo a esp8266 
+  https://www.youtube.com/watch?v=Sdou3Uib9Hw
+
+Solución:
+
+Ejecutar arduino desde consola
+  
+  ' $ ./arduino' en la carpeta
+    can't not open "/dev/ttyACM0" | copiar lo que esta entre comillas
+  ' $ ls -l /dev/ttyACM0'
+    root dialot 166, 0 Aug 25 12:12 /dev/ttyACM0 | copiar despues de root
+  '$ sudo usermod -a -G dialout jhon' | pegar lo que esta antes del arroba ej: jh@pcarch
+  '$ sudo chmod a+rw /dev/ttyACM0' 
+
